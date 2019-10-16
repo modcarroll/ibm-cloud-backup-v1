@@ -10,11 +10,14 @@ This tool includes the ability to backup data from the following services:
 ## Setup
 
 ### Dependencies:
-- [Python3](https://www.python.org/downloads/)
+- [Python 3.5 and above](https://www.python.org/downloads/)
+- [Watson Python SDK](https://pypi.org/project/ibm-watson/)
+- [IBM Cloud Python SDK](https://pypi.org/project/ibm-cloud-sdk-core/)
+-
 
 
 ### To Run:
-1.) Install prerequisites (Python packages)
+1.) Install prerequisites (Python packages listed above).
 
 2.) Add your service credentials to the top of the `IBM_Cloud_Backups_v1.py` file in the specified variables.
 
