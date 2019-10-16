@@ -13,7 +13,6 @@ This tool includes the ability to backup data from the following services:
 - [Python 3.5 and above](https://www.python.org/downloads/)
 - [Watson Python SDK](https://pypi.org/project/ibm-watson/)
 - [IBM Cloud Python SDK](https://pypi.org/project/ibm-cloud-sdk-core/)
--
 
 
 ### To Run:
