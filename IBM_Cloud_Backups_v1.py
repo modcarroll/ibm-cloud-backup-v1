@@ -5,9 +5,6 @@ import shutil
 import threading
 import time
 import datetime
-import ibm_boto3
-import pandas
-from ibm_botocore.client import Config, ClientError
 from ibm_watson import ApiException
 from ibm_watson import AssistantV1
 from ibm_cloud_sdk_core.authenticators import BasicAuthenticator
