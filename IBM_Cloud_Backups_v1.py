@@ -125,12 +125,13 @@ if wa_credentials != '':
 
             authenticator = BasicAuthenticator(wa_username, wa_password)
 
-            assistant_service = Assistant(
-                version = wa_version,
-                authenticator = authenticator
+            assistant_service = AssistantV1(
+                version=wa_version,
+                authenticator=authenticator
             )
 
             assistant_service.set_service_url(wa_url)
+
 
             # Get all workspace IDs
             try:
@@ -239,7 +240,7 @@ if disc_credentials != '':
 
             authenticator = BasicAuthenticator(disc_username, disc_password)
 
-            discovery_service = Discovery(
+            discovery_service = DiscoveryV1(
                 version = disc_version,
                 authenticator = authenticator
             )
